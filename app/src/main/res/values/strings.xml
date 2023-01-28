@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Lista_4</string>
+    <string name="capital">capital of the country</string>
+    <string name="flags">flag of the country</string>
+    <string name="flag_image">Flag of the country</string>
+    <string name="title" />
+    <string name="category" />
+    <string name="instructions" />
+</resources>
