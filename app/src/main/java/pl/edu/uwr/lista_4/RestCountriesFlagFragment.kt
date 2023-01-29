@@ -18,9 +18,7 @@ import pl.edu.uwr.lista_4.data.RestCountriesResponse
 import pl.edu.uwr.lista_4.data.RestCountriesResponseItem
 import pl.edu.uwr.lista_4.databinding.FragmentRestCountriesFlagBinding
 import pl.edu.uwr.lista_4.databinding.FragmentRestCountriesListCapitalBinding
-import pl.edu.uwr.lista_4.util.Cat
 import pl.edu.uwr.lista_4.util.Resource
-import pl.edu.uwr.lista_4.util.categories
 
 class RestCountriesFlagFragment: Fragment() {
     private lateinit var binding: FragmentRestCountriesFlagBinding

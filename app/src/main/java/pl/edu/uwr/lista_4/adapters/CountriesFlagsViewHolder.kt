@@ -13,7 +13,6 @@ class CountriesFlagsViewHolder (private val binding: ListItemRvFlagBinding)
     : RecyclerView.ViewHolder(binding.root){
     fun bind(item: RestCountriesResponseItem){
         binding.name.text = item.name
-        println("HELLLOOOOOOOOOOOOOOOOOOOOO"+ item.flags )
 
         Glide.with(binding.root)
             .load(item.flags.png)

@@ -13,8 +13,8 @@ class RestCountriesComparator : DiffUtil.ItemCallback<RestCountriesResponseItem>
     }
 
     override fun areContentsTheSame(oldItem: RestCountriesResponseItem, newItem: RestCountriesResponseItem): Boolean {
-//        return newItem.flags.png == oldItem.flags.png
-        return newItem.name == oldItem.name
+        return newItem.capital == oldItem.capital
+//        return newItem.name == oldItem.name
 
     }
 }
